@@ -1,0 +1,19 @@
+.select2-dropdown{
+    z-index: 10000000000 !important;
+}
+
+.reply_all_btn{
+    background-color: transparent !important;
+    background: transparent !important;
+    color: black;
+}
+
+.res-count{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding-left: 15px;
+    right: 15px;
+}

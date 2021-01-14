@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* GENERAL */
+*, *:hover, img, a, a:hover{
+	-webkit-transition:all 800ms ease-in-out 0s;
+    -moz-transition:all 800ms ease-in-out 0s;
+    -o-transition:all 800ms ease-in-out 0s;
+    transition:all 800ms ease-in-out 0s;
+}
+a{
+	color:#E25041;
+}
+a:hover{
+	color:#222;
+}
+.btn{
+	text-transform:uppercase;
+	white-space:normal;
+	font-family:"roboto",sans-serif;
+	}
+.btn-info, .btn-secondary {
+    background-color: #00AEFF;
+    border-color: #00AEFF;
+    color: #ffffff;
+}
+nav .mbr-navbar__item, .mbr-header__text, #index-menu-0 .link{
+	text-transform:uppercase;
+	}
+.mbr-section-title{
+	font-weight:300;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	}
+footer .mbr-social-icons__icon{
+	width:40px;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+	border-radius:90px;
+	margin:0 0 13px;
+	}
+.mbr-overlay{
+	opacity:0.7;
+	}
+.mbr-footer-content p strong{
+	text-transform:uppercase;
+	color:#000;
+}
+.display-2{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.display-2 span{
+	text-transform:none;
+	font-weight:normal;
+}
+
+/* NEW */
+.pic-holder{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:20px auto;
+	padding:10px;
+	border:1px solid #ccc;
+	background-color:#fff;
+}
+.pic-holder img{
+	display:block;
+	width:100%;
+	height:auto;
+}
+.rail-trans-pic{
+	max-width:500px;
+	width:100%;
+	max-height:300px;
+	height:auto;
+}
+.rail-trans-pic img{
+	max-width:480px;
+	width:100%;
+	max-height:280px;
+	height:auto;
+}
+#slider-1 .bantxt-overlay{
+	display:table;
+	padding:20px 60px;
+	margin:0 auto;
+	background-color:rgba(0,0,0,0.5);
+}
+.inner-ban{
+	height:400px;
+	background-size:cover;
+	background-position:50% 50%;
+}
+.inner-ban-heading{
+	color:#fff;
+	padding-top:200px;
+	text-align:center;
+}
+.overlay-own{
+	background-color:rgba(0,0,0,0.7);
+	opacity:1;
+}
+.work-type .mbr-cards-col .card-block{
+	min-height:180px;
+}
+.work-type .mbr-cards-col .card-block h4.card-title{
+	text-align:left !important;
+}
+.list-commom{
+	list-style-type:none;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+.list-commom li{
+	border-bottom:1px dashed #ccc;
+	padding:0 0 5px 0;
+	margin:0 0 5px 0;
+}
+.work-list .card-title{
+	letter-spacing:1px;
+}
+.work-list .card-block h4, .work-list .card-block p{
+	text-align:left !important;
+}
+.work-list .card-block p{
+	letter-spacing:1px;
+	text-transform:uppercase;
+	padding:0 0 5px 0;
+	border-bottom:1px dashed #ccc;
+	margin:0 0 10px;
+}
+	
+.team-list p{
+	text-align:left;
+	margin:0 0 20px 0;
+}
+.team-list p strong{
+	display:block;
+	font-size:16px;
+	line-height:1.2;
+	padding:0 0 5px;
+}
+.team-list p small{
+	display:block;
+	font-size:13px;
+	line-height:1;
+	color:#333;
+}
+.mbr-testimonial .team-list:after{
+	display:none;
+}
+.client-list .card-block .card-title h4{
+	text-align:left !important;
+}
+.client-list .card-block .card-title small{
+	letter-spacing:1px;
+	color:#888;
+}
+.table{
+	width:auto;
+	margin:20px auto;
+	padding:0;
+	border:none;
+}
+.table .thead, .table .thead tr{
+	width:100%;
+	margin:0 auto;
+}
+.contact .card-block h4.card-title, .contact .card-block h5.card-subtitle, .contact .card-block p.card-text{
+	text-align:left;
+}
+.rate-para .rate-para-height{
+	min-height:170px;
+}
+		
+	
+	
+	
+	
+/* SECTION */
+.lead p{
+	max-width:800px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.nav-dropdown .link{
+	margin:20px 10px;
+}
+#features2-8 .striped .mbr-cards-col:nth-child(2n+1) {
+    background-color:#2969B0;
+}
+#ext_menu-0 .navbar-fixed-top{
+	border-bottom:1px solid #ccc;
+	}
+.nav .nav-item .link:hover, .nav .nav-item .active{
+	color:#e25041 !important;
+}
+.mbr-cards h5.card-subtitle{
+	padding-bottom:0;
+	line-height:1.1;
+}
+.mbr-cards h4.card-title a{
+	color:#E25041;
+}
+.mbr-testimonial .card-block{
+	background-color:rgba(255,255,255,0.8);
+	border-radius:3px;
+	color:#000;
+}
+#features4-3 .card-subtitle{
+	text-transform:uppercase;
+}
+form{
+	width:100%;
+}
+.form-control, .form-control:focus{
+	width:100%;
+	background-color:rgb(240, 240, 240);
+}
+	
+/* 310317 */
+.mbr-footer-content p{
+font-weight:300 !important;
+}
+.mbr-footer-content p strong{
+font-weight:700 !important;
+}
+#testimonials4-5 .card-footer > div{
+letter-spacing:1px;
+text-transform:uppercase;
+}
+
+
+/* MEDIA */
+@media screen and (min-device-width:768px) and (max-device-width:1279px){ 
+	.navbar-dropdown .navbar-logo{
+		margin-right:5px;
+	}
+	.navbar-dropdown .navbar-logo img{
+		height:42px;
+	}
+	#ext_menu-0 .link{
+		font-size:14px;
+	}
+	.nav-dropdown .link{
+		line-height:1;
+		margin:20px 5px;
+	}
+	.work-type .mbr-cards-col .card-block{
+	min-height:auto;
+	}
+	.rate-para .rate-para-height{
+	min-height:230px;
+	}
+	.rail-trans-pic{
+	max-width:300px;
+	width:auto;
+	max-height:200px;
+	height:100%;
+	}
+	.rail-trans-pic img{
+		max-width:280px;
+		width:100%;
+		max-height:180px;
+		height:auto;
+	}
+	.inner-ban-heading {
+    padding-top:150px;
+	}
+}
+@media (max-width:991px) {
+	.work-type .mbr-cards-col .card-block{
+	min-height:auto;
+	}
+	.rate-para .rate-para-height{
+	min-height:230px;
+	}
+	.rail-trans-pic{
+	max-width:300px;
+	width:auto;
+	max-height:200px;
+	height:100%;
+	}
+	.rail-trans-pic img{
+		max-width:280px;
+		width:100%;
+		max-height:180px;
+		height:auto;
+	}
+	#ext_menu-0 .link{
+		line-height:1;
+		margin:20px 5px;
+	}
+	.inner-ban-heading {
+    padding-top:150px;
+	}
+	#msg-box1-8 .bxslider{
+		padding:0;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#msg-box1-8 .bxslider .mbr-table-md-up{
+		width:100%;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+@media (max-width:767px) {
+	.carousel-control{
+		display:none;
+	}
+	.rate-para .rate-para-height{
+	min-height:auto;
+	}
+}
+
+@media (max-width:480px) {
+	#slider-2 h2, .mbr-section-hero .mbr-section-title{
+	font-size:25px !important;
+	line-height:1;
+	padding-top:80px;
+	}
+	#slider-2 SPAN{
+		font-size:15px !important;
+		line-height:1;
+	}
+	.display-2{
+	font-size:28px;
+	}
+	#slider-1 .bantxt-overlay{
+		padding:10px;
+	}
+	.navbar-dropdown .navbar-logo img{
+		height:45px;
+	}
+	#msg-box1-8 .bxslider .mbr-info-subtitle{
+		font-size:14px;
+		line-height:1.2;
+		margin:0 auto 20px;
+	}
+}
+@media (max-width:359px) {
+	.navbar-dropdown .navbar-logo img{
+		height:45px;
+	}
+}

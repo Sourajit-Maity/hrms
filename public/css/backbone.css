@@ -1,0 +1,742 @@
+.searchbar {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    height: 24px;
+    background: #e9e9e9;
+    color: #333333;
+    z-index: 99999;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid#ab9a5f;
+}
+.searchbar.home {
+    top: 45px;
+    left: 250px;
+    right: 50px;
+}
+.searchbar .fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.searchbar .fields .field {
+    border-right: 1px solid #fff;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.active-date-datepicker-end a, .active-date-datepicker-start a{
+    background-color: #ab9a5f !important;
+    color: white !important;
+}
+.active-date-datepicker-mid a{
+    background-color: #fff !important;
+    color: #ab9a5f !important;
+}
+#availability-tab .active-date-datepicker-mid a{
+    background-color: #b9b7b7 !important;
+    color: #fff !important;
+}
+.active-date-datepicker-mid{
+    padding: 1px 0 !important;
+}
+
+#availability-tab .active-date-datepicker-disabled{
+    background-color: #dec489ba !important;
+}
+#availability-tab .active-date-datepicker-disabled span{
+    color: #000 !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.active-date-datepicker-disabled{
+    padding: 1px 0 !important;
+}
+
+
+#availability-tab .ui-datepicker-year{
+    width: 25%;
+    float: right;
+}
+#availability-tab .ui-datepicker .ui-datepicker-title{
+    text-align: unset;
+    margin: 0px 14px 0 -12px;
+}
+#availability-tab .ui-datepicker .ui-datepicker-next, #availability-tab .ui-datepicker .ui-datepicker-next-hover{
+    right: 115px;
+}
+#availability-tab .ui-datepicker{
+    margin-top: 10px;
+
+}
+
+
+    /*!* 101117-date-box-style-start *!*/
+/*.ui-datepicker tbody a{*/
+    /*border: 1px solid #ddd4be;*/
+/*}*/
+/*.active-date-datepicker-end a, .active-date-datepicker-start a{*/
+    /*border: 1px solid #ab9a5f !important;*/
+/*}*/
+/*.ui-datepicker tbody a:hover{*/
+    /*border: 1px solid #ab9a5f;*/
+    /*background-color:#ddd4be;*/
+    /*color:#ab9a5f;*/
+/*}*/
+/*.ui-datepicker tbody a:hover::before{*/
+    /*background-color:#ddd4be !important;*/
+/*}*/
+/*.active-date-datepicker-end a, .active-date-datepicker-start a, .active-date-datepicker-end a:hover, .active-date-datepicker-start a:hover{*/
+    /*border: 1px solid #ab9a5f;*/
+/*}*/
+/*.ui-datepicker tbody a:hover::before{*/
+    /*content:"";*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-color:transparent;*/
+    /*border-top: 7px solid rgba(0, 0, 0, 0);*/
+    /*border-bottom: 7px solid rgba(0, 0, 0, 0);*/
+    /*border-left: 7px solid #ab9a5f;*/
+
+    /*left:100%;*/
+    /*margin-left: 0;*/
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*z-index: 999;*/
+    /*margin-top: -7px;*/
+    /*pointer-events: none;*/
+/*}*/
+
+
+/*!**/
+/*.ui-datepicker tbody a:hover{*/
+    /*position: relative;*/
+    /*background: #ddd4be;*/
+    /*border: 1px solid #ab9a5f;*/
+/*}*/
+/*.ui-datepicker tbody a:hover:after, .ui-datepicker tbody a:hover:before {*/
+    /*left: 100%;*/
+    /*top: 50%;*/
+    /*border: solid transparent;*/
+    /*content: " ";*/
+    /*height: 0;*/
+    /*width: 0;*/
+    /*position: absolute;*/
+    /*pointer-events: none;*/
+/*}*/
+
+/*.ui-datepicker tbody a:hover:after {*/
+    /*border-color: rgba(0, 0, 0, 0);*/
+    /*border-left-color: #000;*/
+    /*border-width: 7px;*/
+    /*margin-top: -7px;*/
+/*}*/
+/*.ui-datepicker tbody a:hover:before {*/
+    /*border-color: rgba(194, 225, 245, 0);*/
+    /*border-left-color: #ab9a5f;*/
+    /*border-width: 7px;*/
+    /*margin-top: -7px;*/
+/*}*!*/
+
+
+
+
+/*.active-date-datepicker-start a::before, .active-date-datepicker-start a:hover::before{*/
+    /*content:"";*/
+    /*width: 0; */
+    /*height: 0;*/
+    /*border-top: 7px solid transparent;*/
+    /*border-bottom: 7px solid transparent; */
+    /*border-left: 7px solid #ab9a5f;*/
+    /*left:100%;*/
+    /*margin-left: 0;*/
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*z-index: 999;*/
+    /*margin-top: -7px;*/
+    /*pointer-events: none;*/
+/*}*/
+/*.active-date-datepicker-end a::before, .active-date-datepicker-end a:hover::before{*/
+    /*content:"";*/
+    /*width: 0; */
+    /*height: 0;*/
+    /*border-top: 7px solid transparent;*/
+    /*border-bottom: 7px solid transparent; */
+    /*border-right: 7px solid #ab9a5f;*/
+    /*right:100%;*/
+    /*margin-right: 0;*/
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*z-index: 999;*/
+    /*margin-top: -7px;*/
+    /*pointer-events: none;*/
+/*}*/
+/* 101117-date-box-style-end */
+
+     /* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+ #map {
+     /*height: 800px;*/
+     /*width: 800px;*/
+     height: 100%;
+     width: 100%;
+ }
+
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+#right-panel {
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#right-panel select, #right-panel input {
+    font-size: 15px;
+}
+
+#right-panel select {
+    width: 100%;
+}
+
+#right-panel i {
+    font-size: 12px;
+}
+#right-panel {
+    height: 100%;
+    float: right;
+    width: 390px;
+    overflow: auto;
+}
+#map {
+    /*margin-right: 400px;*/
+}
+#floating-panel {
+    background: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    display: none;
+}
+@media print {
+    #map {
+        height: 500px;
+        margin: 0;
+    }
+    #right-panel {
+        float: none;
+        width: auto;
+    }
+}
+
+/* 211117-start */
+#floating-panel{
+    padding: 15px 15px 5px;
+    background-color: #ddd4be;
+    box-shadow:none;
+    border:1px solid #7f6f36;
+    border-top: 0;
+    opacity: 0.7;
+}
+#floating-panel strong{
+    margin-bottom:20px;
+    color:#7f6f36;
+}
+#floating-panel select{
+    margin-bottom:8px;
+    color:#000;
+}
+#floating-panel #dis,#floating-panel #duration{
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#7f6f36;
+    line-height: 1;
+    text-align: center;
+    font-size:14px;
+    padding: 5px;
+    background-color: #fff;
+    margin:0 auto 5px;
+}
+/* 211117-end */
+
+
+
+.change-property{
+    z-index: 9999!important;
+    width: 100%!important;
+    height: 30px!important;
+    font-size: 16px!important;
+    background-color: #ddd4be!important;
+    color: #161616!important;
+    outline:none!important;
+    padding: 4px!important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #7f6f36;
+    border-color: #7f6f36;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #ab9a5f;
+    border-color: #ab9a5f;
+}
+.toggle-group span{
+    width: 50px;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top:140px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+/* 231117 -start */
+.row-full{
+    display: block;
+    width: 100%;
+    overflow: hidden !important;
+    margin: 0 -15px;
+}
+.md-col-12, .sm-col-12{
+    width: 100%;
+    overflow: hidden;
+    float: none;
+}
+.sm-col-2 {
+    display: block;
+    width: 17% !important;
+    float: left;
+    padding: 0 15px;
+}
+.md-col-4, .sm-col-4{
+    display: block;
+    width: 33.33% !important;
+    float: left;
+    padding: 0 15px;
+}
+.md-col-6, .sm-col-6{
+    display: block;
+    width: 50% !important;
+    float: left;
+    padding: 0 15px;
+}
+.bookingPage{
+    display: block !important;
+    width: 100%;
+    position: relative;
+    height: auto;
+    float: none;
+    overflow: hidden !important;
+}
+.bookingForm{
+    display: block !important;
+    width: 100%;
+    position: relative;
+    height: auto;
+    float: none;
+    overflow: hidden !important;
+}
+.bookingForm .bookingPrice{
+    overflow: hidden;
+}
+.propertyDetails{
+    display: block !important;
+    width: 100%;
+    position: relative;
+    height: auto;
+    float: none;
+    overflow: hidden !important;
+}
+.propertyDetails.showTab .moreProperties {
+    right: 0;
+}
+.propertyList{
+    /*margin-left: 90px;*/
+}
+.bookingInformation{
+    margin-top: 30px;
+}
+.labeltext{
+    color:#ab9a5f;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing: 3px;
+}
+.labeltext-black{
+    color:#000;
+    font-weight:bold;
+    font-size:16px;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.marg-top{
+    margin-top: 10px;
+}
+.marg-top2{
+    margin-top: 30px;
+}
+.float-lft{
+    width:auto;
+    float: left;
+    padding-right:10px;
+}
+.float-rgt{
+    width:auto;
+    float: right;
+    padding-left:10px;
+}
+.row-line{
+    width: 100%;
+    padding: 0 0 5px 0;
+    border-bottom:2px solid #000;
+    margin:0 auto 30px;
+    overflow: hidden;
+}
+.row-no-line{
+    width: 100%;
+    margin:0 auto 30px;
+    overflow: hidden;
+}
+.row-no-line-payments{
+    margin-bottom: 10px !important;
+}
+
+.col-payments{
+    padding: unset !important;
+}
+.col-payments p{
+    text-align: right !important;
+}
+
+.row-no-line h6.labeltext{
+    color:#ab9a5f;
+    font-weight:bold;
+    font-size:22px;
+    letter-spacing: 3px;
+}
+.fa-minus-square-o, .fa-window-close-o{
+    font-size: 25px;
+}
+.pull-right{
+    float:right !important;
+}
+.bookingPage-new .fa{
+    color: #000;
+}
+.bookingPage-new .view-link{
+    color:#be993d;
+    font-weight:bold;
+    font-size:14px;
+    text-decoration:none;
+}
+.bookingPage-new .view-link:hover{
+    color:#000;
+    text-decoration:underline;
+}
+.fb-blue-btn{
+    background-color: #3B5998 !important;
+}
+.fb-blue-btn:hover{
+    background-color: #ab9a5f !important;
+    color:#000;
+}
+.grey-btn{
+    background-color: #ddd !important;
+    color:#000 !important;
+}
+.grey-btn:hover{
+    background-color: #ab9a5f !important;
+    color:#fff !important;
+}
+.extras-table{
+    width: 100%;
+    margin:0 auto 30px;
+    text-align: center;
+}
+.extras-table{
+    font-size: 12px;
+}
+.extras-table thead tr th{
+    color:#be993d;
+    font-weight:bold;
+    font-size:12px;
+}
+.extras-table tr td{
+    width: 20% !important;
+    padding: 5px 2px;
+}
+.extras-table tr td input[type="text"]{
+    width:25px;
+}
+.extras-table tr td:first-child{
+    width: 40% !important;
+    text-align: left;
+}
+.text-2-line{
+    margin:20px 0 10px;
+}
+.text-2-line p{
+    margin:0 0 10px 0;
+    color:#be993d;
+    font-weight:bold;
+    font-size:12px;
+}
+.text-2-line p strong{
+    color:#000;
+}
+.propertyInner #map-canvas-111, .propertyInner #map-canvas-34, .propertyInner #map-canvas-112,
+.propertyInner  #map-canvas-58, .propertyInner #map-canvas-197, .propertyInner #map-canvas-63,
+.propertyInner #map-canvas-60, .propertyInner #map-canvas-59{
+    display: none;
+}
+.guests input {
+    width:50px !important;
+}
+.propertyList li.property{
+    height: auto !important;
+}
+.propertyList li.property .propertyContent{
+    height:auto !important;
+}
+.detail-content label{
+    color:#be993d;
+    font-weight:bold;
+    font-size:14px;
+    margin-top:10px;
+}
+.detail-content p{
+    color:#000;
+    font-size:14px;
+    margin-bottom:2px;
+}
+.align-center{
+    display:block !important;
+    margin:0 auto !important;
+    text-align: center !important;
+}
+.modal-backdrop{
+    z-index: 99999;
+}
+.pointer{
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+
+    #snackbar {
+        visibility: hidden;
+        width: 90%;
+        margin-left: -125px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: absolute;
+        z-index: 999999999;
+        left: 5%;
+        top: 140px;
+        font-size: 17px;
+        margin-left: unset!important;
+    }
+
+    .propertyDetails .moreProperties, .propertyDetails .addExtras{
+        bottom: 0;
+    }
+    .propertyList {
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+    .propertyContent{
+        height: auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .md-col-4, .sm-col-4, .md-col-6, .sm-col-6, .xs-col-12{
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+    }
+    .guests input {
+        width: 60% !important;
+    }
+    .propertyDetails .moreProperties, .propertyDetails .addExtras{
+        bottom: 0;
+    }
+    .propertyList {
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+    .propertyContent{
+        height: auto !important;
+    }
+
+}
+
+@media screen and (max-width: 776px) and (min-width: 320px) {
+    .row-full .right, .row-full .left{
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+/* 231117 -end */
+
+.extras-table label{
+    width: 100%;
+    margin-bottom: 0 !important;
+    font-family: montserratregular, arial, sans-serif !important;
+    text-transform: none !important;
+    font-size: 12px !important;
+    letter-spacing: unset !important;
+}
+.extra-content p{
+    font-family: montserratregular, arial, sans-serif !important;
+    font-size: 14px !important;
+}
+.parsley-errors-list li{
+    color: #B94A48;
+}
+
+.bookingForm fieldset .extra-row{
+    height: 272px;
+    overflow-y: auto;
+}
+
+.property h2, .accommodationList h2{
+    margin-top: 0 !important;
+
+}
+.accommodationList h2{
+    border-bottom: unset !important;
+}
+
+.property h3{
+    margin-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.accommodationList h3{
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.col-payments p strong{
+    font-size: 18px;
+}
+
+
+.calendar-container {
+    overflow-x: scroll;
+    width: 100%;
+
+}
+.calendar-container-table{
+    border-collapse: separate;
+    border-spacing: 0;
+    border-top: 1px solid grey;
+}
+.calendar-container-table td,.calendar-container-table th {
+    margin: 0;
+    border: 1px solid grey;
+    white-space: nowrap;
+    border-top-width: 0px;
+}
+/*.availability-calendar div{*/
+    /*display: inline-block !important;*/
+/*}*/
+.calendar{
+    width: 1200px;
+    /*width: 2330px;*/
+}
+.calendar table {
+    margin: auto 0 !important;
+}
+.availability-calendar .col-xs-1,.availability-calendar .col-xs-2,.availability-calendar .col-xs-3{
+    border: 1px solid #c9c9c9;
+    height: 200px !important;
+    width: auto !important;
+}
+.cal-fixed-hd{
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    padding: 50% 0;
+    /*width: 120px !important;*/
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.month thead{
+    border-bottom: 1px solid #c9c9c9;
+    color: #ab9a5f;
+}
